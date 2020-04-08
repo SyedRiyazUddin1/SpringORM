@@ -1,10 +1,10 @@
-package com.spring.examples.Config_and_Annotations.examples;
+package com.spring.core.examples.Config_and_Annotations.examples;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration //which specifies that the below is a configuration class
 
 @ComponentScan(basePackages = "com.spring.examples.Config_and_Annotations.examples")
 

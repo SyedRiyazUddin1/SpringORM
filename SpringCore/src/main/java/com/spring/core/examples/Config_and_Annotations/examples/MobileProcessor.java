@@ -1,4 +1,4 @@
-package com.spring.examples.Config_and_Annotations.examples;
+package com.spring.core.examples.Config_and_Annotations.examples;
 //
 import org.springframework.stereotype.Component;
 

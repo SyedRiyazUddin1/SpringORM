@@ -1,4 +1,4 @@
-package com.spring.examples.dependency_InjectionDemo;
+package com.spring.core.examples.dependency_InjectionDemo;
 
 import org.springframework.stereotype.Component;
 

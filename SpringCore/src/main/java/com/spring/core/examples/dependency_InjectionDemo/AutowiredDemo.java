@@ -1,4 +1,4 @@
-package com.spring.examples.dependency_InjectionDemo;
+package com.spring.core.examples.dependency_InjectionDemo;
 
 //Autowired example
 import org.springframework.context.ApplicationContext;
