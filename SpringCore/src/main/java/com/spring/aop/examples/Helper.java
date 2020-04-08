@@ -7,7 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Component;
 
 //Aspect oriented Programming
-//Cross cutting concerns ->@Aspect.
+//Cross cutting concerns ->@Aspect
 
 //Advice (term in spring AOP) which simply means -> What/When you can plug-in AOP aspect ->@Before/@After
 //PointCut (term in spring AOP) which simply means-> where you can plug-in AOP aspect
