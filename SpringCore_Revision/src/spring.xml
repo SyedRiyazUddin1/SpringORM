@@ -1,0 +1,24 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+    <bean id="triangle" class="com.springcore.examples.Triangle">
+
+        <!-- below configuration is used for setter injection
+        <property name="type" value="Equilateral" />
+        -->
+
+        <!-- Constructor Injection
+        <constructor-arg value= "Equilateral" />
+        <constructor-arg value= "20" />
+        -->
+
+        <!-- Constructor Injection if we have multiple arguments with the help of index (order)-->
+        <constructor-arg index = "0" value= "Equilateral" />
+        <constructor-arg index = "1" value= "20" />
+
+
+
+    </bean>
+
+</beans>
