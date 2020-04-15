@@ -71,8 +71,4 @@
         <property name="p1" value="20" />
         <property name="p2" value="0" />
     </bean>
-
-    <!-- *******  Aliases in Spring *********
-    You can also give a different name to the beans created apart from the current name and the new name can also be used in the application -->
-    <alias name="triangle" alias="triangle-alias"/>
 </beans>
