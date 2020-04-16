@@ -1,6 +1,5 @@
-package com.springcore.examples.objects_injection;
+package com.springcore.xmlconfig.objects_injection;
 
-import com.springcore.examples.objects_injection.Triangle1;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -1,6 +1,6 @@
-package com.springcore.examples.collections_initialization;
+package com.springcore.xmlconfig.objects_injection;
 
-public class Point1 {
+public class Point {
 
     private int p1;
     private int p2;

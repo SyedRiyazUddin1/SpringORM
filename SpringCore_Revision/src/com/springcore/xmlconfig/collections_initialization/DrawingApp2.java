@@ -1,4 +1,4 @@
-package com.springcore.examples.collections_initialization;
+package com.springcore.xmlconfig.collections_initialization;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

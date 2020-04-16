@@ -2,7 +2,7 @@
 
 <beans>
 
-    <bean id="triangle" class="com.springcore.examples.Triangle">
+    <bean id="triangle" class="com.springcore.xmlconfig.Triangle">
 
         <!-- below configuration is used for setter injection
         <property name="type" value="Equilateral" />
@@ -21,23 +21,23 @@
 
         <!-- *******  OBJECT INSERTION *********
 
-    <bean id="triangle1" class="com.springcore.examples.objects_injection.Triangle1">
+    <bean id="triangle1" class="com.springcore.xmlconfigg.objects_injection.Triangle1">
         <property name="pointA" ref="zeroPoint"/>
         <property name="pointB" ref="point2"/>
         <property name="pointC" ref="point3"/>
     </bean>
 
-    <bean id="zeroPoint" class="com.springcore.examples.objects_injection.Point">
+    <bean id="zeroPoint" class="com.springcore.xmlconfigg.objects_injection.Point">
         <property name="p1" value="0" />
         <property name="p2" value="0" />
     </bean>
 
-    <bean id="point2" class="com.springcore.examples.objects_injection.Point">
+    <bean id="point2" class="com.springcore.xmlconfigg.objects_injection.Point">
         <property name="p1" value="-20" />
         <property name="p2" value="20" />
     </bean>
 
-    <bean id="point3" class="com.springcore.examples.objects_injection.Point">
+    <bean id="point3" class="com.springcore.xmlconfigg.objects_injection.Point">
         <property name="p1" value="20" />
         <property name="p2" value="0" />
     </bean>
@@ -47,7 +47,7 @@
     <!-- *******  initializing Collections ********* -->
 
 
-    <bean id="triangle2" class="com.springcore.examples.collections_initialization.Triangle2">
+    <bean id="triangle2" class="com.springcore.xmlconfig.collections_initialization.Triangle2">
         <property name="points">
             <list>
                 <ref bean="zeroPoint" />
@@ -57,17 +57,17 @@
         </property>
     </bean>
 
-    <bean id="zeroPoint" class="com.springcore.examples.collections_initialization.Point1">
+    <bean id="zeroPoint" class="com.springcore.xmlconfig.collections_initialization.Point1">
         <property name="p1" value="0" />
         <property name="p2" value="0" />
     </bean>
 
-    <bean id="point2" class="com.springcore.examples.collections_initialization.Point1">
+    <bean id="point2" class="com.springcore.xmlconfig.collections_initialization.Point1">
         <property name="p1" value="-20" />
         <property name="p2" value="20" />
     </bean>
 
-    <bean id="point3" class="com.springcore.examples.collections_initialization.Point1">
+    <bean id="point3" class="com.springcore.xmlconfig.collections_initialization.Point1">
         <property name="p1" value="20" />
         <property name="p2" value="0" />
     </bean>

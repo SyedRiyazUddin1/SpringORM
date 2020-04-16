@@ -33,28 +33,6 @@
       <change afterPath="$PROJECT_DIR$/../DemoMVC/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DemoMVC/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DemoMVC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCore_Revision.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/META-INF/SpringCore_Revision.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/springcore/examples/DrawingApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/springcore/examples/Triangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/springcore/examples/collections_initialization/DrawingApp2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/springcore/examples/collections_initialization/Point1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/springcore/examples/collections_initialization/Triangle2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/springcore/examples/objects_injection/DrawingApp1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/springcore/examples/objects_injection/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/springcore/examples/objects_injection/Triangle1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/com/util/MyLogger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SpringCore_Revision/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/DrawingApp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/Point1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/Triangle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springcore/examples/objects_injection/DrawingApp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springcore/examples/objects_injection/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springcore/examples/objects_injection/Triangle1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Spring_AOP/Spring_AOP.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webapp-practice/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webapp-practice/.idea/vcs.xml" afterDir="false" />
@@ -64,6 +42,9 @@
       <change beforePath="$PROJECT_DIR$/../CorejavaPractice/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CorejavaPractice/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CorejavaPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CorejavaPractice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CorejavaPractice/src/com/javapractice/corejava/logicalprograms/CommonElementsInArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CorejavaPractice/src/com/javapractice/corejava/logicalprograms/CommonElementsInArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/springcore/examples/DrawingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springcore/examples/constructor_setterInjections/DrawingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/springcore/examples/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springcore/examples/constructor_setterInjections/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -93,17 +74,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
+            <state relative-caret-position="1275">
               <caret line="75" column="141" selection-start-line="75" selection-start-column="141" selection-end-line="75" selection-end-column="141" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/constructor_setterInjections/DrawingApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/constructor_setterInjections/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/Point1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -111,14 +117,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/Triangle2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="85">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/Triangle2.java" />
         <option value="$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/DrawingApp2.java" />
         <option value="$PROJECT_DIR$/src/spring.xml" />
+        <option value="$PROJECT_DIR$/src/com/springcore/examples/constructor_setterInjections/Triangle.java" />
       </list>
     </option>
   </component>
@@ -167,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,19 +197,10 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringCore_Revision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCore_Revision" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="collections_initialization" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,6 +214,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springcore.examples.constructor_setterInjections" />
       <recent name="com.springcore.examples.collections_initialization" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -244,11 +240,11 @@
   </component>
   <component name="RunManager" selected="Application.DrawingApp2">
     <configuration name="DrawingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springcore.examples.DrawingApp" />
+      <option name="MAIN_CLASS_NAME" value="com.springcore.examples.constructor_setterInjections.DrawingApp" />
       <module name="SpringCore_Revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springcore.examples.*" />
+          <option name="PATTERN" value="com.springcore.examples.constructor_setterInjections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,13 +304,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586886804304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring Revision">
+      <created>1586977592665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586977592665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24858299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26477733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,27 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/DrawingApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/objects_injection/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -458,20 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/Triangle2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/DrawingApp2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -482,17 +450,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/Triangle2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="75" column="141" selection-start-line="75" selection-start-column="141" selection-end-line="75" selection-end-column="141" />
+        <state relative-caret-position="85">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/collections_initialization/Point1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="141" selection-start-line="75" selection-start-column="141" selection-end-line="75" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/constructor_setterInjections/DrawingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/springcore/examples/constructor_setterInjections/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

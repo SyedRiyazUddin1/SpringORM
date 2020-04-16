@@ -1,8 +1,13 @@
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-<beans>
 
-    <bean id="triangle" class="com.springcore.examples.Triangle">
+    <bean id="triangle" class="com.springcore.xmlconfig.constructor_setterInjections.Triangle">
 
         <!-- below configuration is used for setter injection
         <property name="type" value="Equilateral" />
@@ -14,65 +19,183 @@
         -->
 
         <!-- Constructor Injection if we have multiple arguments with the help of index (order)-->
-        <constructor-arg index = "0" value= "Equilateral" />
-        <constructor-arg index = "1" value= "20" />
+        <constructor-arg index="0" value="Equilateral"/>
+        <constructor-arg index="1" value="20"/>
 
     </bean>
 
-        <!-- *******  OBJECT INSERTION *********
+    <!-- *******  OBJECT INSERTION *********
 
-    <bean id="triangle1" class="com.springcore.examples.objects_injection.Triangle1">
-        <property name="pointA" ref="zeroPoint"/>
-        <property name="pointB" ref="point2"/>
-        <property name="pointC" ref="point3"/>
-    </bean>
+<bean id="triangle1" class="com.springcore.xmlconfigg.objects_injection.Triangle1">
+    <property name="pointA" ref="zeroPoint"/>
+    <property name="pointB" ref="point2"/>
+    <property name="pointC" ref="point3"/>
+</bean>
 
-    <bean id="zeroPoint" class="com.springcore.examples.objects_injection.Point">
-        <property name="p1" value="0" />
-        <property name="p2" value="0" />
-    </bean>
+<bean id="zeroPoint" class="com.springcore.xmlconfigg.objects_injection.Point">
+    <property name="p1" value="0" />
+    <property name="p2" value="0" />
+</bean>
 
-    <bean id="point2" class="com.springcore.examples.objects_injection.Point">
-        <property name="p1" value="-20" />
-        <property name="p2" value="20" />
-    </bean>
+<bean id="point2" class="com.springcore.xmlconfigg.objects_injection.Point">
+    <property name="p1" value="-20" />
+    <property name="p2" value="20" />
+</bean>
 
-    <bean id="point3" class="com.springcore.examples.objects_injection.Point">
-        <property name="p1" value="20" />
-        <property name="p2" value="0" />
-    </bean>
+<bean id="point3" class="com.springcore.xmlconfigg.objects_injection.Point">
+    <property name="p1" value="20" />
+    <property name="p2" value="0" />
+</bean>
 
-    ****************************************************************************-->
+****************************************************************************-->
 
     <!-- *******  initializing Collections ********* -->
 
 
-    <bean id="triangle2" class="com.springcore.examples.collections_initialization.Triangle2">
+    <bean id="triangle2" class="com.springcore.xmlconfig.collections_initialization.Triangle2">
         <property name="points">
             <list>
-                <ref bean="zeroPoint" />
-                <ref bean="point2" />
-                <ref bean="point3" />
+                <ref bean="zeroPoint"/>
+                <ref bean="point2"/>
+                <ref bean="point3"/>
             </list>
         </property>
     </bean>
 
-    <bean id="zeroPoint" class="com.springcore.examples.collections_initialization.Point1">
-        <property name="p1" value="0" />
-        <property name="p2" value="0" />
+    <bean id="zeroPoint" class="com.springcore.xmlconfig.collections_initialization.Point1">
+        <property name="p1" value="0"/>
+        <property name="p2" value="0"/>
     </bean>
 
-    <bean id="point2" class="com.springcore.examples.collections_initialization.Point1">
-        <property name="p1" value="-20" />
-        <property name="p2" value="20" />
+    <bean id="point2" class="com.springcore.xmlconfig.collections_initialization.Point1">
+        <property name="p1" value="-20"/>
+        <property name="p2" value="20"/>
     </bean>
 
-    <bean id="point3" class="com.springcore.examples.collections_initialization.Point1">
-        <property name="p1" value="20" />
-        <property name="p2" value="0" />
+    <bean id="point3" class="com.springcore.xmlconfig.collections_initialization.Point1">
+        <property name="p1" value="20"/>
+        <property name="p2" value="0"/>
     </bean>
 
     <!-- *******  Aliases in Spring *********
     You can also give a different name to the beans created apart from the current name and the new name can also be used in the application -->
     <alias name="triangle" alias="triangle-alias"/>
+
+    <!-- *******  Autowiring (XML-based config) *********
+
+    <bean id="triangle2" class="com.springcore.xmlconfigg.collections_initialization.Triangle2" autowire="byName">
+    when we mention autowire above, no need to write the below references and
+    also, the member varibales must have the same names which the below beans have,
+    in order to work with autowire feature. Besides, we also have autowire="byType" & autowire="constructor"
+    which check the type of setter and constructor parameters respectievly
+        //<property name="points">
+            // <list>
+            //   <ref bean="zeroPoint" />
+            //      <ref bean="point2" />
+            //      <ref bean="point3" />
+            //</list>
+        //</property>
+    </bean>
+
+    <bean id="zeroPoint" class="com.springcore.xmlconfigg.collections_initialization.Point1">
+        <property name="p1" value="0" />
+        <property name="p2" value="0" />
+    </bean>
+
+    <bean id="point2" class="com.springcore.xmlconfigg.collections_initialization.Point1">
+        <property name="p1" value="-20" />
+        <property name="p2" value="20" />
+    </bean>
+
+    <bean id="point3" class="com.springcore.xmlconfigg.collections_initialization.Point1">
+        <property name="p1" value="20" />
+        <property name="p2" value="0" />
+    </bean>
+
+    *************************************************************************************-->
+
+
+    <!-- **************************Different scopes of Beans**************************
+    we can mention the bean scopes in the below configuration line
+
+<beans>
+    <bean id="triangle" class="com.springcore.xmlconfigg.constructor_setterInjections.Triangle" scope="singleton">
+    If the scope is singleton, only one bean will get created per Spring container and whenever the applicationContext initializes
+    If the scope is prototype, new bean created with every request (getBean) or  reference
+
+
+  *******************************************************************************************************-->
+
+    <!--****************************CODING TO INTERFACES (xml based config)******************************
+
+    <bean id="triangle3" class="com.springcore.xmlconfig.codingto_interfaces.Triangle3">
+        <property name="pointA" ref="pointA" />
+        <property name="pointB" ref="pointB" />
+        <property name="pointC" ref="pointC" />
+    </bean>
+
+    <bean id="pointA" class="com.springcore.xmlconfig.codingto_interfaces.Point2">
+        <property name="p1" value="0"/>
+        <property name="p2" value="0"/>
+    </bean>
+
+    <bean id="pointB" class="com.springcore.xmlconfig.codingto_interfaces.Point2">
+        <property name="p1" value="-20"/>
+        <property name="p2" value="20"/>
+    </bean>
+
+    <bean id="pointC" class="com.springcore.xmlconfig.codingto_interfaces.Point2">
+        <property name="p1" value="20"/>
+        <property name="p2" value="0"/>
+    </bean>
+
+    <bean id="circle" class="com.springcore.xmlconfig.codingto_interfaces.Circle">
+        <property name="center" ref ="pointA"/>
+    </bean>
+    *******************************************************************************************-->
+
+
+    <!--***********     Coding To interfaces (SPRING ANNOTATIONS)    *************************-->
+
+    <!--    <bean id="triangle3" class="com.springcore.xmlconfig.codingto_interfaces.Triangle3">-->
+    <!--        <property name="pointA" ref="pointA" />-->
+    <!--        <property name="pointB" ref="pointB" />-->
+    <!--        <property name="pointC" ref="pointC" />-->
+    <!--    </bean>-->
+
+    <bean id="pointA" class="com.springcore.xmlconfig.codingto_interfaces.Point2">
+        <qualifier value="circleRelated"/>
+        <property name="p1" value="0"/>
+        <property name="p2" value="0"/>
+    </bean>
+
+    <bean id="pointB" class="com.springcore.xmlconfig.codingto_interfaces.Point2">
+
+        <property name="p1" value="-20"/>
+        <property name="p2" value="20"/>
+    </bean>
+
+    <bean id="pointC" class="com.springcore.xmlconfig.codingto_interfaces.Point2">
+        <property name="p1" value="20"/>
+        <property name="p2" value="0"/>
+    </bean>
+
+<!--  @Component Annotation replaced the below configuration
+  <bean id="circle" class="com.springcore.xmlconfig.codingto_interfaces.Circle">-->
+<!--    </bean>-->
+
+    <!--<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />-->
+    <!--    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />-->
+
+    <!--    instead of definining all the postprocessors which are related to different annotation,
+    we can write the below tag which defines and initialize all the Beanpostprocessor-->
+    <context:annotation-config/>
+    
+    <context:component-scan base-package="com.springcore.xmlconfig.codingto_interfaces" />
+    <!-- the above configuration scans the package for annotation that are marked as beans-->
+
+
 </beans>
+
+
+

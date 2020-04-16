@@ -1,4 +1,4 @@
-package com.springcore.examples.collections_initialization;
+package com.springcore.xmlconfig.collections_initialization;
 
 import com.util.MyLogger;
 import java.util.List;

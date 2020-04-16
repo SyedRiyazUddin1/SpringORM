@@ -1,4 +1,4 @@
-package com.springcore.examples.objects_injection;
+package com.springcore.xmlconfig.objects_injection;
 
 import com.util.MyLogger;
 
