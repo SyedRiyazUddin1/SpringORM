@@ -180,7 +180,7 @@
         <property name="p2" value="0"/>
     </bean>
 
-<!--  @Component Annotation replaced the below configuration
+<!--  @Component Annotation replaced the below configuration //
   <bean id="circle" class="com.springcore.xmlconfig.codingto_interfaces.Circle">-->
 <!--    </bean>-->
 
